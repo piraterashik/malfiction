@@ -1,0 +1,87 @@
+body {
+    background-color: #ffe4e1;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: #ff69b4;
+    color: #fff;
+    padding: 20px;
+    margin: 0;
+}
+
+#app {
+    margin: 20px;
+}
+
+#parameters {
+    background-color: #fafad2;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input[type="text"], select {
+    width: 200px;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff69b4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #ff1493;
+}
+
+#story {
+    margin-top: 40px;
+    text-align: left;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.chapter, .options {
+    background-color: #fafad2;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.option-button {
+    background-color: #ff69b4;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.option-button:hover {
+    background-color: #ff1493;
+}
+
+.editable {
+    background-color: #fff0f5;
+    padding: 10px;
+    border: dashed 2px #ff69b4;
+    margin-top: 10px;
+}

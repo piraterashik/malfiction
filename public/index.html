@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>malfiction</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>malfiction</h1>
+    <div id="app">
+        <div id="parameters">
+            <h2>Customize Your Story</h2>
+            <label for="genre">Genre:</label>
+            <select id="genre">
+                <option value="fantasy">Fantasy</option>
+                <option value="sci-fi">Science Fiction</option>
+                <option value="mystery">Mystery</option>
+                <!-- Add more genres as needed -->
+            </select>
+
+            <label for="tone">Writing Style/Tone:</label>
+            <select id="tone">
+                <option value="humorous">Humorous</option>
+                <option value="serious">Serious</option>
+                <option value="sarcastic">Sarcastic</option>
+                <!-- Add more tones as needed -->
+            </select>
+
+            <label for="setting">Setting:</label>
+            <input type="text" id="setting" placeholder="e.g., Medieval Castle">
+
+            <!-- Character Alignment Chart -->
+            <h3>Character Alignment</h3>
+            <select id="alignment">
+                <option value="lawful-good">Lawful Good</option>
+                <option value="neutral-good">Neutral Good</option>
+                <option value="chaotic-good">Chaotic Good</option>
+                <option value="lawful-neutral">Lawful Neutral</option>
+                <option value="true-neutral">True Neutral</option>
+                <option value="chaotic-neutral">Chaotic Neutral</option>
+                <option value="lawful-evil">Lawful Evil</option>
+                <option value="neutral-evil">Neutral Evil</option>
+                <option value="chaotic-evil">Chaotic Evil</option>
+            </select>
+
+            <button id="generate">Generate Chapter</button>
+        </div>
+
+        <div id="story">
+            <!-- Story content will be injected here -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
