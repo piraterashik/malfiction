@@ -1,7 +1,7 @@
 # malfiction
 
 create characters with aligment charts,
-input parameters to set your plots
+input parameters to set your plots,
 realize and play ur fictions. 
 
 did not mean for that to rhyme. 
